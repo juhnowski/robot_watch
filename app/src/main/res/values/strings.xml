@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RobotWatch</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_accept">AcceptActivity</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_call">CallActivity</string>
+    <string name="title_activity_load">LoadActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_run">RunActivity</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <string name="title_activity_done">DoneActivity</string>
+    <string name="title_activity_">Activity</string>
+</resources>

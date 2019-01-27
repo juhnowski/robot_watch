@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AcceptActivity"
+        tools:deviceIds="wear"
+        android:padding="@dimen/box_inset_layout_padding">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/inner_frame_layout_padding"
+            android:orientation="vertical">
+        <TextView
+                android:text="Получено"
+                android:layout_width="match_parent"
+                android:layout_height="50sp" android:id="@+id/textView"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textAlignment="center" android:textColor="@color/colorPrimaryDark"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50sp">
+            <ImageView
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imgStar1" android:layout_weight="1"
+                    android:tag="1" android:onClick="star"/>
+            <ImageView
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imgStar2" android:layout_weight="1"
+                    android:tag="2" android:onClick="star"/>
+            <ImageView
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imgStar3" android:layout_weight="1"
+                    android:tag="3" android:onClick="star"/>
+            <ImageView
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imgStar4" android:layout_weight="1"
+                    android:tag="4" android:onClick="star"/>
+            <ImageView
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imgStar5" android:layout_weight="1"
+                    android:tag="5" android:onClick="star"/>
+        </LinearLayout>
+        <ImageView
+                android:src="@drawable/timer"
+                android:layout_width="match_parent"
+                android:layout_height="74sp" android:id="@+id/imageView2" android:onClick="accept"/>
+    </LinearLayout>
+</android.support.wear.widget.BoxInsetLayout>
